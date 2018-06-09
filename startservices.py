@@ -18,7 +18,7 @@ def status():
     return jsonify({'status':1})
 
 # regeiste apis
-from Apis.user import User
+from Services.Apis.user import User
 api.add_resource(User,'/user/')
 
 
